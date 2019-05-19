@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 2%;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    margin-left: -15px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    position: relative;
+    font-family: 'Nanum Gothic Coding', monospace;
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 5px 15px;
+    border-radius: 5px;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+nav {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+    border-right: solid 1px #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+nav a:checked {
+    color: #000;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 340px;
+}
