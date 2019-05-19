@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 2%;
@@ -32,11 +33,38 @@ li {
 nav {
     height: 100%;
     position: fixed;
+    min-width: 200px;
     top: 0;
     left: 0;
     padding: 10px 20px 10px 10px;
     box-sizing: border-box;
     border-right: solid 1px #ddd;
+    box-shadow: 2px 2px 5px #bbb;
+}
+
+#navbar header {
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px #bbb;
+}
+
+nav ul {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li {
+    border-top: solid 1px #ddd;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 5px;
+    margin-left: -50px;
+    margin-bottom: 0;
+    width: 100%;
+    line-height: 1;
 }
 
 nav a {
