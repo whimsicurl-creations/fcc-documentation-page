@@ -100,7 +100,8 @@ nav a:checked {
         margin-left: 0;
         max-height: 250px;
         width: 100%;
-        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
         background-color: white;
     }
     nav ul li {
