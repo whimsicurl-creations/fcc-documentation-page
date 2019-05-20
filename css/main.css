@@ -67,6 +67,12 @@ nav ul li {
     line-height: 1;
 }
 
+nav ul li:hover {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 nav a {
     text-decoration: none;
     list-style-type: none;
@@ -80,4 +86,28 @@ nav a:checked {
 #main-doc {
     position: absolute;
     margin-left: 340px;
+}
+
+/* ===== MEDIA QUERY ===== */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    nav {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        max-height: 250px;
+        width: 100%;
+        overflow: auto;
+        background-color: white;
+    }
+    nav ul li {
+        padding-bottom: 15px;
+    }
+    #main-doc {
+        margin: 0 2%;
+        padding: 0 2%;
+    }
 }
